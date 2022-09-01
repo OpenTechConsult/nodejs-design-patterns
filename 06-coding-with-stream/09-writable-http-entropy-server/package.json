@@ -1,0 +1,26 @@
+{
+  "name": "09-writable-http-entropy-server",
+  "version": "1.0.0",
+  "description": "this example shows how to write to streams. Create a small HTTP server that outputs a random sequence of strings",
+  "main": "entropy-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node entropy-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "writable stream",
+    "stream",
+    "node",
+    "http server"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "chance": "^1.1.8"
+  }
+}
