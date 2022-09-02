@@ -1,0 +1,27 @@
+{
+  "name": "10-writable-http-entropy-server-backpressure",
+  "version": "1.0.0",
+  "description": "Demonstrate how to write to stream and taking back-pressure into account.",
+  "main": "entropy-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node entropy-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "writable stream",
+    "http server",
+    "back-pressure",
+    "JavaScript"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "chance": "^1.1.8"
+  }
+}
