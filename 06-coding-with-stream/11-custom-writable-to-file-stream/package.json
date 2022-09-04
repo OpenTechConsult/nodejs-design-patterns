@@ -1,0 +1,27 @@
+{
+  "name": "11-custom-writable-to-file-stream",
+  "version": "1.0.0",
+  "description": "An example that show how to create a custom writable file stream",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "writable stream",
+    "custom stream",
+    "node",
+    "file system"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
