@@ -1,0 +1,25 @@
+{
+  "name": "13-transform-filter-reduce",
+  "version": "1.0.0",
+  "description": "a sample project to analyze a big csv file, filtering by country and aggregating by its data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "transform stream",
+    "filter",
+    "reduce",
+    "aggregating",
+    "node.js",
+    "javascript"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.3.0"
+  }
+}
