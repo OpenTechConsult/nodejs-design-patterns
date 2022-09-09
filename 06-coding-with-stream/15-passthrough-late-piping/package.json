@@ -1,0 +1,29 @@
+{
+  "name": "15-passthrough-late-piping",
+  "version": "1.0.0",
+  "description": "This example shows how to implement late piping",
+  "main": "upload-cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node upload-cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "transform",
+    "late-piping",
+    "PassThrough stream",
+    "node.js",
+    "JavaScript"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1210.0",
+    "axios": "^0.27.2"
+  },
+  "engineStrict": true,
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "ISC"
+}
