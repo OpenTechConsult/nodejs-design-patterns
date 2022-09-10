@@ -1,0 +1,29 @@
+{
+  "name": "15-passthrough-late-piping-alternative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload-cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node upload-cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "late-piping",
+    "late-piping-alternative",
+    "passthrough stream",
+    "node",
+    "upload"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "aws-sdk": "^2.1212.0",
+    "axios": "^0.27.2"
+  }
+}
