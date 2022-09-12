@@ -1,0 +1,23 @@
+{
+  "name": "18-sequential-execution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "concat.js",
+  "type": "module",
+  "scripts": {
+    "start": "node concat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asynchronous control flow",
+    "sequential iteration execution",
+    "streams",
+    "patterns"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true
+}
