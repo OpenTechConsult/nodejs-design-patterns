@@ -18,6 +18,26 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/06-coding-with-stream/12-transform-stream-replace/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Passthrough stream late-piping",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/06-coding-with-stream/15-passthrough-late-piping/upload-cli.js",
+            "args": ["./README.md"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Passthrough stream late-piping alternative",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/06-coding-with-stream/15-passthrough-late-piping-alternative/upload-cli.js",
+            "args": ["./README.md"]
         }
     ]
 }

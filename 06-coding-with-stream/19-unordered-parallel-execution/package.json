@@ -1,0 +1,29 @@
+{
+  "name": "19-unordered-parallel-execution",
+  "version": "1.0.0",
+  "description": "This example shows how to create a parallel execution flow using streams.",
+  "main": "check-urls.js",
+  "type": "module",
+  "scripts": {
+    "start": "node check-urls.js urls.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "streams",
+    "parallel-execution",
+    "unordered-parallel-execution",
+    "patterns",
+    "node",
+    "javascript"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "split": "^1.0.1",
+    "superagent": "^8.0.0"
+  }
+}
