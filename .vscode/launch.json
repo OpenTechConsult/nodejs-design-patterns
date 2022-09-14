@@ -27,7 +27,9 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/06-coding-with-stream/15-passthrough-late-piping/upload-cli.js",
-            "args": ["./README.md"]
+            "args": [
+                "./README.md"
+            ]
         },
         {
             "type": "node",
@@ -37,7 +39,21 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/06-coding-with-stream/15-passthrough-late-piping-alternative/upload-cli.js",
-            "args": ["./README.md"]
+            "args": [
+                "./README.md"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Unordered parallel execution of streams",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/06-coding-with-stream/19-unordered-parallel-execution/check-urls.js",
+            "args": [
+                "urls.txt"
+            ]
         }
     ]
 }
