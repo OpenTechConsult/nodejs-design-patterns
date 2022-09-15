@@ -54,6 +54,15 @@
             "args": [
                 "urls.txt"
             ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Unordered limited parallel execution of streams",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/06-coding-with-stream/20-unordered-limited-parallel-execution/check-urls.js"
         }
     ]
 }
