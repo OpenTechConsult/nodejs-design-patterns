@@ -1,0 +1,26 @@
+{
+  "name": "24-merging-streams",
+  "version": "1.0.0",
+  "description": "This example shows how to merge streams.",
+  "main": "merge-lines.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "split": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "keywords": [
+    "piping patterns",
+    "merging-streams",
+    "streams",
+    "node.js",
+    "JavaScript"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT"
+}
