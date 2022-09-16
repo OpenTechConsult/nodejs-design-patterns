@@ -1,0 +1,24 @@
+{
+  "name": "21-ordered-parallel-execution",
+  "version": "1.0.0",
+  "description": "This example shows how to create a limited parallel execution flow using streams. The order of the streams is preserved.",
+  "main": "check-urls.js",
+  "type": "module",
+  "scripts": {
+    "start": "node check-urls.js 500urls.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "parallel-transform": "^1.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "split": "^1.0.1"
+  }
+}
