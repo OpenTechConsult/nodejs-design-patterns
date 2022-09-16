@@ -1,0 +1,24 @@
+{
+  "name": "23-forking-streams",
+  "version": "1.0.0",
+  "description": "This example shows how to fork a stream.",
+  "main": "generate-hashes.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "piping",
+    "patterns",
+    "fork",
+    "node.js",
+    "javascript"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true
+}
