@@ -1,0 +1,27 @@
+{
+  "name": "25-multiplexing",
+  "version": "1.0.0",
+  "description": "This example demonstrates how to perform multiplexing and demultiplexing using Node.js streams.",
+  "main": "client.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "piping",
+    "stream",
+    "multiplexing",
+    "patterns",
+    "demultiplexing",
+    "node"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
