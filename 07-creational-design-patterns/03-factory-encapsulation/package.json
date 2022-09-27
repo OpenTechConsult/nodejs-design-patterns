@@ -1,0 +1,13 @@
+{
+  "name": "03-factory-encapsulation",
+  "version": "1.0.0",
+  "description": "Demonstrate how closures and scopes are used to enforce encapsulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT"
+}
